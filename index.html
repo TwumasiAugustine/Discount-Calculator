@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Discount Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <h2>Discount Calculator</h2>
+        <div class="input-container">
+            <label for="amount">Enter Amount ($): </label>
+            <input type="number" id="amount">
+        </div>
+        <div class="input-container">
+            <label for="discount-given">Enter Discount (%): </label>
+            <input type="number" id="discount">
+        </div>
+        <div class="input-container">
+            <span >Discount Amount: </span>
+            <p id="discount-given">$ 0.00</p>
+        </div>
+        <div class="input-container">
+            <span>Final Bill Amount: </span>
+            <p type="number" id="final-bill">$ 0.00</p>
+        </div>
+        <div class="input-container">
+            <button id="calculate">Calculate</button>
+            <button id="reset">Reset </button>
+        </div>
+        <div>
+            <span>
+                &copy; dev_twumstine 2023. All rights reserved
+            </span>
+        </div>
+        <script src="./app.js"></script>
+</body>
+</html>
